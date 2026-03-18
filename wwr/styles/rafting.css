@@ -11,6 +11,11 @@
     --body-font: cursive, Georgia, script;
 }
 
+header {
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+}
+
 * {
     margin: 0;
     padding: 0;
