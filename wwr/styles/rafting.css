@@ -56,12 +56,6 @@ article {
     position: relative;
 }
 
-.hero article {
-    position: absolute;
-    float: right;
-    width: 125px;
-}
-
 .hero img {
     display: block;
     width: 100%;
@@ -78,4 +72,9 @@ h1 {
     background-color: var(--accent1-color);
     color: #fff;
     /* white text - make sure there is enough contrast with the background-color*/
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
 }
