@@ -1,12 +1,12 @@
 :root {
-    --primary-color: #055a05;
-    /* forest green */
+    --primary-color: #0b3c49;
+    /* dark blue */
     --secondary-color: #f4a261;
-    /* warm sand*/
+    /* orange */
     --accent1-color: #264653;
-    /* dark slate blue*/
-    --accent2-color: #e9c46a;
-    /*light golden yellow*/
+    /* dark slate */
+    --accent2-color: #ffffff;
+    /* white text */
     --heading-font: "Arial Black", "Helvetica Black", Display;
     --body-font: cursive, Georgia, script;
 }
