@@ -52,29 +52,39 @@ article {
     text-decoration: none;
 }
 
+/* HERO CONTAINER */
 .hero {
     position: relative;
+    /* ✅ REQUIRED */
 }
 
+/* HERO IMAGE */
 .hero img {
     display: block;
     width: 100%;
     height: auto;
 }
 
-h1 {
+/* HERO TITLE */
+.hero h1 {
     position: absolute;
+    /* ✅ REQUIRED */
     top: 20px;
     width: 100%;
-    padding: 16px;
     text-align: center;
-    opacity: 0.7;
+    padding: 16px;
     background-color: var(--accent1-color);
-    color: #fff;
-    /* white text - make sure there is enough contrast with the background-color*/
+    color: white;
+    opacity: 0.7;
 }
 
+/* HERO ARTICLE */
 .hero article {
-    float: right;
-    width: 125px;
+    position: absolute;
+    /* ✅ THIS WAS MISSING */
+    bottom: 20px;
+    left: 20px;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
 }
