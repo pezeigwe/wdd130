@@ -94,3 +94,81 @@ article {
     width: 125px;
     margin-left: 10px;
 }
+
+/* HEADER GRID */
+.site-header {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+    background-color: #0a3d62;
+    padding: 10px 20px;
+}
+
+.logo {
+    width: 100px;
+}
+
+/* NAV FLEX */
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* HISTORY GRID */
+.history {
+    padding: 40px;
+    text-align: center;
+}
+
+.history-content {
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.history img {
+    width: 100%;
+}
+
+/* ADVENTURES FLEX */
+.adventure-gallery {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+}
+
+.adventure-gallery img {
+    width: 100%;
+}
+
+figure {
+    text-align: center;
+}
+
+/* FOOTER FLEX */
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a3d62;
+    color: white;
+    padding: 15px 20px;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+}
+
+.social img {
+    width: 30px;
+}
