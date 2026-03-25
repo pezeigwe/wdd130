@@ -173,4 +173,10 @@ figure {
     width: 30px;
     height: 30px;
     object-fit: contain;
+    background-color: white;
+    /* adds equal background space */
+    padding: 4px;
+    /* creates uniform spacing */
+    border-radius: 5px;
+    /* optional: makes it look nicer */
 }
