@@ -180,3 +180,53 @@ figure {
     border-radius: 5px;
     /* optional: makes it look nicer */
 }
+
+.contact-info {
+    margin: 20px 0;
+}
+
+.contact-info iframe {
+    width: 100%;
+    max-width: 400px;
+    border: none;
+    /* replaces inline style */
+}
+
+.employees {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.employees figure {
+    text-align: center;
+}
+
+.employees img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 8px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    background-color: #0077cc;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #005fa3;
+}
