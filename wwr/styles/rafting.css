@@ -230,3 +230,65 @@ figure {
 .contact-form button:hover {
     background-color: #005fa3;
 }
+
+/* HERO */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.hero-text {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: white;
+    font-size: 2rem;
+}
+
+/* CTA */
+.cta {
+    text-align: center;
+    margin: 20px;
+}
+
+.btn {
+    background-color: #0077cc;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.trips-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+/* NEWSLETTER */
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
