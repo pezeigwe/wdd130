@@ -305,3 +305,40 @@ td {
     display: inline-block;
     margin-top: 10px;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+th {
+    background-color: #0077cc;
+    color: white;
+    padding: 12px;
+    text-transform: uppercase;
+}
+
+/* Table cells */
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Borders */
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+/* Zebra striping */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect */
+tr:hover {
+    background-color: #d6eaff;
+}
